@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <title>CV MY</title>
+</head>
+
+<body class="page">
+
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="header__container">
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item _activ"><a href="#about">About</a></li>
+            <li class="menu__item"><a href="#contacts">Contacts</a></li>
+            <li class="menu__item"><a href="#skills">Skills</a></li>
+            <li class="menu__item"><a href="#education">Education</a></li>
+            <li class="menu__item"><a href="#courses">Courses</a></li>
+            <li class="menu__item"><a href="#language">Language</a></li>
+            <li class="menu__item"><a href="#code">Code</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="menu__icon icon-menu"><span></span></button>
+      </div>
+    </header>
+
+    <main class="main-page">
+      <section class="about">
+        <div class="about__container">
+          <div class="about__img">
+            <img src="img/photo.png" alt="photo">
+          </div>
+          <div class="about__name">Vladislav Polovets</div>
+          <h1 class="about__title">Front-end Developer</h1>
+          <p class="about__text about__text_one">I have such personal qualities as the ability to easily find contact with people, self-condidence, the
+            ability to set priorities, the ability to effectively plan your time, creative thinking, attention to
+            detail, the ability to work in the time.</p>
+          <p class="about__text about__text_two">I have such personal qualities as the ability to easily find contact with people, self-condidence, the
+            ability to set priorities, the ability to effectively plan your time, creative thinking, attention to
+            detail, the ability to work in the time.</p>
+        </div>
+      </section>
+
+      <section class="contacts" id="contacts">
+        <div class="contacts__container">
+          <h2 class="contacts__title h2">Contacts</h2>
+          <div class="contacts__links links">
+            <ul class="links__list">
+              <li class="links__item skype"><a href="https://join.skype.com/invite/CHR63bKgLk5P" target="_blank"><img src="img/icons/skype.svg" alt=""></a></li>
+              <li class="links__item email"><a href="mailto:polovets_vlad@mail.ru" target="_blank"><img src="img/icons/email.svg" alt=""></a></li>
+              <li class="links__item whatsapp"><a href="https://www.whatsapp.com/" target="_blank"><img src="img/icons/whatsapp.svg" alt=""></a></li>
+              <li class="links__item linkedin"><a href="https://www.linkedin.com/in/vladislav-polovets-682980215/" target="_blank"><img src="img/icons/linkedin.svg" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+      <section class="skills" id="skills">
+        <div class="skills__container">
+          <h2 class="skills__title h2">Skills</h2>
+          <ul class="skills__list">
+            <li class="skills__item">HTML, CSS</li>
+            <li class="skills__item">Basic JavaScript</li>
+            <li class="skills__item">BEM</li>
+            <li class="skills__item">SASS, SCSS</li>
+            <li class="skills__item">Figma / Photoshop</li>
+            <li class="skills__item">Git</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="education" id="education">
+        <div class="education__container">
+          <h2 class="education__title h2">Education</h2>
+          <ul class="education__list">
+            <li class="education__item">Belarusian National Economic University</li>
+            <li class="education__item">HTMLacademy</li>
+            <li class="education__item">IT-Academy</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="courses" id="courses">
+        <div class="courses__container">
+          <h2 class="courses__title h2">Course</h2>
+          <ul class="courses__list">
+            <li class="courses__item">RS Schools «JavaScript/Front-end. Stage 0</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="language" id="language">
+        <div class="language__container">
+          <h2 class="language__title h2">Language</h2>
+          <ul class="language__list">
+            <li class="language__item">Russian (Native speaker)</li>
+            <li class="language__item">English(A2)</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="code" id="code">
+        <div class="code__container">
+          <h2 class="code__title h2">Code</h2>
+          <pre class="code__code">
+          <code>
+  <span style="color: #5C20DC">function</span> <span style="color: #0596FF">showMenu</span><span style="color: #FCEB58">() {</span><br>
+    <span style="color: #F4C039">this.parentElement.classList.</span><span style="color: #0596FF">toggle</span><span style="color: #E751FF">(</span><span style="color: #77D44A">'menu-open'</span><span style="color: #E751FF">)</span>;<br>
+    <span style="color: #F4C039">html.classList.</span><span style="color: #0596FF">toggle</span><span style="color: #E751FF">(</span><span style="color: #77D44A">'lock'</span><span style="color: #E751FF">)</span>;<br>
+  <span style="color: #FCEB58">}</span>
+          </code>
+        </pre>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__data">2022</div>
+        <ul class="footer__links">
+          <li class="footer__link"><a href="https://github.com/VladPolo" target="_blank"><img src="img/icons/github.svg" alt="GitHub Icon"></a></li>
+          <li class="footer__link"><a href="https://rs.school/js-stage0/" target="_blank"><img src="img/icons/rs_school_js.svg" alt="RS School Icon"></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
